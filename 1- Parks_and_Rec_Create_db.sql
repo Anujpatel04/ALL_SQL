@@ -7,6 +7,7 @@ USE `Parks_and_Recreation`;
 
 
 
+
 CREATE TABLE employee_demographics (
   employee_id INT NOT NULL,
   first_name VARCHAR(50),
@@ -16,6 +17,7 @@ CREATE TABLE employee_demographics (
   birth_date DATE,
   PRIMARY KEY (employee_id)
 );
+
 
 CREATE TABLE employee_salary (
   employee_id INT NOT NULL,
