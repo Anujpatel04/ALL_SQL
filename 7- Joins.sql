@@ -9,6 +9,7 @@
 SELECT *
 FROM employee_demographics;
 
+
 SELECT *
 FROM employee_salary;
 
@@ -115,8 +116,7 @@ INNER JOIN employee_salary sal
 LEFT JOIN parks_departments dept
 	ON dept.department_id = sal.dept_id;
 
-
-
+-- Anuj Patel 
 
 
 
